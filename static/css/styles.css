@@ -1,0 +1,129 @@
+
+* {  /* "*" means all elements */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {   
+    background: white;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.firstSection{
+
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    background: black;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.firstSection #background{
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.firstSection #canvas{
+    position:absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.firstSection h1{
+    
+    position: absolute;
+    /* font-size: 100px; */
+    font-size: 5vw;     /* Doing this helps the text become smaller when resizing.*/
+    top: 25%;
+    left: 10%;
+    font-family: 'Lato', sans-serif;
+    background: -webkit-linear-gradient(270deg, white, #144de7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 .313em #3074b4, 0 0 .625em #3074b4
+
+}
+
+.firstSection h3{
+    
+    position: absolute;
+    font-size: 3vw;     /* Doing this helps the text become smaller when resizing.*/
+    top: 40%;
+    left: 10%;
+    
+    background: -webkit-linear-gradient(270deg, white, #1488e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 .313em #3074b4, 0 0 .625em #3074b4
+    
+}
+
+.links {
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.links .link{
+
+    font-size: 2vw;
+    padding-right: 20px;        /* Create some space between each link*/
+
+    background: -webkit-linear-gradient(270deg, white, #1488e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 .313em #86aacc, 0 0 .625em #86aacc
+}
+
+
+/* ---- projects.html ---- */
+
+
+.projects {
+    text-align: center;
+    /*width: 50%;*/
+}
+
+.projects h1{
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 5em;
+    background: -webkit-linear-gradient(270deg, white, #0b70aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 .313em #0b70aa, 0 0 .625em #0b70aa
+}
+
+.projects li {
+    list-style-type: none;
+}
+
+.projects li .title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2em;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.projects li .text {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
