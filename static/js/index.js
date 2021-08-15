@@ -38,7 +38,7 @@ class Particle {
   draw() {
     ctx.beginPath();    //Generates a "line" to be drawn
     ctx.arc(this.x,this.y,this.size, 0, Math.PI * 2, false);  //x,y,radius,starting angle, ending angle, counterclockwise
-    ctx.fillStyle = '#FFFFFF';   //Color to fill in the line
+    ctx.fillStyle = '#1fcde4';   //Color to fill in the line
     ctx.fill();   //"Fills" the line with a color. (like coloring in a circle)
   }
 
