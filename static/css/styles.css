@@ -96,22 +96,23 @@ body {
 .projects {
     text-align: center;
     /*width: 50%;*/
+    background: gray;
 }
 
 .projects h1{
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 
     font-family: 'Lato', sans-serif;
     font-size: 5em;
     background: -webkit-linear-gradient(270deg, white, #0b70aa);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 .313em #0b70aa, 0 0 .625em #0b70aa
 }
 
 .projects li {
     list-style-type: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .projects li .title {
